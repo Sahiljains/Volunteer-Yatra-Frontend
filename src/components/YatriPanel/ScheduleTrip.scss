@@ -1,0 +1,105 @@
+
+.plan-trip {
+    .row {
+        margin: 3rem auto !important;
+        text-align: center;
+        .card {
+            text-align: left;
+            margin: 0 1rem;
+        
+            padding: 1.5rem 3.5rem;
+            position: relative;
+            height: 42rem;
+            box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.15);
+            // margin-top: -835px;
+            margin-top: -770px;
+            ol {
+                z-index: 99;
+              margin-left: -25px;
+                li {
+                    padding: 10px 0;
+                    
+                }
+            }
+            img {
+                position: absolute;
+                left: 75%;
+                transform: translateX(-50%);
+                width: 35%;
+                bottom: 7%;
+            }
+        }
+        .type-btn {
+            margin: 5rem auto;
+            width: 35%;
+        }
+    }
+}
+
+ol {
+    list-style: none;
+
+  }
+  
+ol li:before {
+    content: '✓';
+    color :#ffde3a;
+    font-weight: bold;
+    font-size: 20px;;
+    display: inline-block;
+    width: 2em;
+    margin-left: -10px;
+ 
+  }
+
+.designImg{
+    left: 0%;
+    width: 100.5% !important;
+    bottom: 7%;
+    margin-left: -128px;
+    margin-bottom: -47px;
+    
+
+}
+.tripImg{
+    margin-bottom: -25px;
+    margin-left: 10px;
+    
+}
+.tripbutton{
+    padding: 0px 0px;
+    border: 1px solid black;
+	margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+
+}
+.advancetripbutton{
+    
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    margin-top: -23px;
+}
+.normaltrip{
+ 
+    margin-top: 30px;
+   
+}
+.nomalfeatures{
+    margin-top: 10px;
+}
+.advancefeatures{
+    margin-top: 10px;
+}
+.advancetrip{
+    margin-top: 30px;
+}
+.wholeImg{
+    // height: 900px;
+    height: 100%;
+    width: 100%;
+}
